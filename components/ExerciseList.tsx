@@ -5,25 +5,25 @@ import './ExerciseList.css';
 const ExerciseList = () => {
   const exercises = [
     {
-      image: 'https://via.placeholder.com/100',
-      title: 'Puxada frontal',
-      description: '3 séries x 12 repetições',
-    },
-    {
-      image: 'https://via.placeholder.com/100',
-      title: 'Remada curvada',
-      description: '3 séries x 12 repetições',
-    },
-    {
-      image: 'https://via.placeholder.com/100',
-      title: 'Remada unilateral',
-      description: '3 séries x 12 repetições',
-    },
-    {
-      image: 'https://via.placeholder.com/100',
-      title: 'Levantamento terra',
-      description: '3 séries x 12 repetições',
-    },
+        image: '/img/image1.jpg', // Reemplaza con la ruta real
+        title: 'Puxada frontal',
+        description: '3 séries x 12 repetições',
+      },
+      {
+        image: '/img/image2.jpg',
+        title: 'Remada curvada',
+        description: '3 séries x 12 repetições',
+      },
+      {
+        image: '/img/image3.jpg',
+        title: 'Remada unilateral',
+        description: '3 séries x 12 repetições',
+      },
+      {
+        image: '/img/image4.jpg',
+        title: 'Levantamento terra',
+        description: '3 séries x 12 repetições',
+      },
   ];
 
   return (
