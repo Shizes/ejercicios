@@ -1,11 +1,11 @@
 import React from 'react';
-import ExerciseItem from './ExerciseItem'; // Asegúrate de que el path sea correcto
+import ExerciseItem from './ExerciseItem';
 import './ExerciseList.css';
 
 const ExerciseList = () => {
   const exercises = [
     {
-        image: '/img/image1.jpg', // Reemplaza con la ruta real
+        image: '/img/image1.jpg', 
         title: 'Puxada frontal',
         description: '3 séries x 12 repetições',
       },

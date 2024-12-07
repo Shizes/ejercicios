@@ -1,7 +1,13 @@
 import React from 'react';
-import './ExerciseItem.css'; // Asegúrate de que los estilos estén configurados
+import './ExerciseItem.css';
 
-const ExerciseItem = ({ image, title, description }) => {
+interface ExerciseItemProps {
+  image: string;
+  title: string;
+  description: string;
+}
+
+const ExerciseItem: React.FC<ExerciseItemProps> = ({ image, title, description }) => {
   return (
     <div className="exercise-item">
       <img src={image} alt={title} className="exercise-item-image" />
